@@ -9,7 +9,7 @@ const App = () => {
 
   const fetchData =  () => {
     // const imagesApi = 'https://images-api.nasa.gov/asset/as11-40-5874';
-    // const nasaApi = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=HmVeuwNSQypYzyxy3sXSJZZTHDRVkv0FXtMeQgFU';
+    // const nasaApi = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key='your_api_key'';
 
     // const getNasaApi =  axios.get(nasaApi).then((res)=> console.log(res));
     const getNasaApi = axios.get(nasaApi);
